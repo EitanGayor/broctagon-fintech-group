@@ -1,0 +1,133 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > log4js > mailgun-js > debug:
+        patched: '2020-12-17T03:08:12.309Z'
+  'npm:extend:20180424':
+    - karma > dom-serialize > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > hipchat-notifier > request > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > loggly > request > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > request > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > http-proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > https-proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > socks-proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > http-proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > https-proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > socks-proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > http-proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > get-uri > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > socks-proxy-agent > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > http-proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > https-proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > proxy-agent > pac-proxy-agent > socks-proxy-agent > agent-base > extend:
+        patched: '2020-12-17T03:08:12.309Z'
+  'npm:hoek:20180212':
+    - karma > log4js > hipchat-notifier > request > hawk > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > hipchat-notifier > request > hawk > boom > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > hipchat-notifier > request > hawk > sntp > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > hipchat-notifier > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > boom > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > sntp > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-12-17T03:08:12.309Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - protractor > browserstack > https-proxy-agent:
+        patched: '2020-12-17T03:08:12.309Z'
+    - protractor > saucelabs > https-proxy-agent:
+        patched: '2020-12-17T03:08:12.309Z'
+    - '@angular/cli > @schematics/update > pacote > make-fetch-happen > https-proxy-agent':
+        patched: '2020-12-17T03:08:12.309Z'
+    - '@angular/cli > @schematics/update > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent':
+        patched: '2020-12-17T03:08:12.309Z'
+  SNYK-JS-LODASH-567746:
+    - karma > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > hipchat-notifier > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > mailgun-js > async > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-12-17T03:08:12.309Z'
+    - '@angular/cli > inquirer > lodash':
+        patched: '2020-12-17T03:08:12.309Z'
+  'npm:ms:20170412':
+    - karma > log4js > mailgun-js > debug > ms:
+        patched: '2020-12-17T03:08:12.309Z'
+  'npm:stringstream:20180511':
+    - karma > log4js > hipchat-notifier > request > stringstream:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > loggly > request > stringstream:
+        patched: '2020-12-17T03:08:12.309Z'
+    - karma > log4js > slack-node > requestretry > request > stringstream:
+        patched: '2020-12-17T03:08:12.309Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2020-12-17T03:08:12.309Z'
