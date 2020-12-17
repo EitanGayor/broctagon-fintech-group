@@ -8,7 +8,9 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -30,26 +32,28 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
     "rxjs": "^6.3.3",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "snyk": "^1.437.2"
   },
   "devDependencies": {
-    "@angular/cli": "7.1.4",
-    "@angular/compiler-cli": "7.1.4",
+    "@angular/cli": "8.2.0",
+    "@angular/compiler-cli": "7.2.16",
     "@angular/language-service": "7.1.4",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "^4.0.1",
-    "jasmine-core": "~2.8.0",
+    "jasmine-core": "~3.1.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~2.0.0",
+    "karma": "~3.0.0",
     "karma-chrome-launcher": "~2.2.0",
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "protractor": "^5.4.2",
+    "protractor": "^6.0.0",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "3.1.6"
-  }
+  },
+  "snyk": true
 }
